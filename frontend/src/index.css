@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  /* Color Vars */
+  --bg: #121212;
+  --overlay: #1e1e1e;
+  --overlay2: #272727;
+  --text: white;
+  --text-muted: #cfcfcf;
+  --yellow: #d5a805;
+
+
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Site Wrapper*/
+main {
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.navbar {
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  padding: 10px 0px 10px 0px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  align-items: center;
+}
+
+
+.nav-logo {
+  height: 70px;
+}
+
+.navbar menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: auto;
+}
+
+.navbar menu li {
+  display: inline-block;
+  height: 100%;
+}
+
+.nav-btn {
+  float: right;
+}
+
+a.nav-link {
+  padding: 6px 30px 6px 30px;
+  display: block;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+  color: var(--text);
+}
+
+a.nav-link:hover {
+  text-decoration: none;
+  background-color: var(--overlay);
+  color: var(--muted);
+}
+
+a.nav-active {
+  color: var(--yellow);
+}
+
+a.nav-active:hover {
+  text-decoration: none;
+  background-color: var(--overlay);
+  color: var(--yellow);
+}
+
+/* Home Page */
+.home-content {
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.info-blurb {
+  display: grid;
+  grid-template-columns: 384px 600px;
+  grid-gap: 40px;
+  margin-bottom: 20px;
+}
+
+.home-content section {
+  background-color: var(--overlay);
+  padding: 12px;
+  border-radius: 5;
+  height: 144px;
+}
+
+.home-content img {
+  width: 160px;
+}
+
+.home-content p {
+  margin: 2px;
+  font-size: 16px;
+}
+
+iframe {
+  border: none;
+}
+
+/* Banner */
+.banner-div {
+  width: 100%;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  margin: 0;
+  background-color: var(--overlay2);
+}
+
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 384px 600px;
+  grid-gap: 20px;
+}
+
+a {
+  color: var(--text);
+}
+
+a:hover {
+  color: var(--text-muted);
+}
