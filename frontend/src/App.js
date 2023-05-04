@@ -4,6 +4,7 @@ import Home from './pages/Home.js';
 import Contact from './pages/Contact.js';
 import Banner from './img/Banner.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HitTheRoad from './pages/HitTheRoad.js';
 
 function App() {
   return (
@@ -22,13 +23,12 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route exact path="/HitTheRoad">
+              <HitTheRoad />
+            </Route>
             <Route exact path="/contact">
               <Contact />
             </Route>
-            <Route path='/discord' component={() => {
-               window.location.href = 'https://discord.gg/8vFCHahcHG';
-               return null;
-            }}/>
           </Switch>
         </main>
         <Footer />

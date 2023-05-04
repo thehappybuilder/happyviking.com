@@ -13,7 +13,7 @@ function Navbar() {
           <NavLink exact to='/' className="nav-link" activeClassName="nav-active">LEGACY</NavLink>
         </li>
         <li className="nav-btn">
-          <NavLink to='/contact' className="nav-link" activeClassName="nav-active">HIT THE ROAD</NavLink>
+          <NavLink to='/HitTheRoad' className="nav-link" activeClassName="nav-active">HIT THE ROAD</NavLink>
         </li>
         <li className="nav-btn">
           <NavLink to='/contact' className="nav-link" activeClassName="nav-active">ABOUT US</NavLink>
