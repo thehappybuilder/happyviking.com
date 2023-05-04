@@ -14,7 +14,7 @@ function App() {
         </header>
         <Switch>
           <Route exact path="/">
-            <Banner />
+            {/*<Banner />*/}
           </Route>
         </Switch>
         <main>

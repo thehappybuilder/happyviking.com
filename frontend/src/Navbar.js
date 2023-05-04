@@ -1,14 +1,23 @@
 import { NavLink, Link } from 'react-router-dom';
-import HVLogo from './img/HVLogo.js';
+import legacy from './img/grayLogo.png'
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link to='/' className="nav-logo"><HVLogo /></Link>
+      <Link to='/'>
+        <img src={legacy} alt="banner" className="nav-logo"
+          height={40}/>
+      </Link>
       <menu>
-        <li className="nav-btn"><NavLink to='/contact' className="nav-link" activeClassName="nav-active">CONTACT</NavLink></li>
-        <li className="nav-btn"><NavLink to='/discord' className="nav-link" activeClassName="nav-active">DISCORD</NavLink></li>
-        <li className="nav-btn"><NavLink exact to='/' className="nav-link" activeClassName="nav-active">GAMES</NavLink></li>
+        <li className="nav-btn">
+          <NavLink exact to='/' className="nav-link" activeClassName="nav-active">LEGACY</NavLink>
+        </li>
+        <li className="nav-btn">
+          <NavLink to='/contact' className="nav-link" activeClassName="nav-active">HIT THE ROAD</NavLink>
+        </li>
+        <li className="nav-btn">
+          <NavLink to='/contact' className="nav-link" activeClassName="nav-active">ABOUT US</NavLink>
+        </li>
       </menu>
     </nav>
   );
