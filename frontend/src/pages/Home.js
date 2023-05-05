@@ -10,6 +10,7 @@ import llyod from '../img/llyod.png'
 import voronoi2 from '../img/voronoi2.png'
 import bg_dark_3 from '../img/bg_dark_3.png'
 import bg_dark_4 from '../img/bg_dark_4.png'
+import Socials from '../components/Socials.js'
 
 import ss3 from '../img/ss3.PNG'
 import ss5 from '../img/ss5.PNG'
@@ -40,36 +41,35 @@ function Home() {
         <div className= 'welcome-body'>
           <h3> Welcome to A Modest Legacy </h3>
 
-          <div className= 'welcome-desc'>
-            <p1> Explore the world of A Modest Legacy, where you must fight
-            to create your kingdom while taking down your enemies.
-            A Modest Legacy is a real time strategy, roguelite,
-            single-player game where you must work to grow your cities,
-            outposts, and armies, all while keeping your population fed and
-             ready for war. </p1>
-          </div>
+          <span className='welcome-span'>
+            <div className= 'welcome-desc'>
+              <p1> 
+                Explore the world of A Modest Legacy, where you must fight
+                to create your kingdom while taking down your enemies.
+                A Modest Legacy is a real time strategy, roguelite,
+                single-player game where you must work to grow your cities,
+                outposts, and armies, all while keeping your population fed and
+                ready for war. 
+              </p1>
+              <iframe
+                src="https://store.steampowered.com/widget/1858090/"
+                height="190">
+              </iframe>
+            </div>
 
+            
+
+            <iframe
+              width="600"  className='img-shadow'
+              src="https://www.youtube.com/embed/xTy1GrrcGRQ">
+            </iframe>
+          </span>
+          
 
         </div>
 
-        <div className='line-2'>
+        <Socials />
 
-            <div className= 'hor-line-left'>
-              <img className= 'second-line-img-flip' src={lineart2} alt="lineart2"/>
-            </div>
-
-
-
-            <img className= 'steam-img' src={steamIcon} alt="steamIcon"/>
-            <img className= 'youtube-img' src={youtubeIcon} alt="youtubeIcon"/>
-            <img className= 'discord-img' src={discordIcon} alt="discordIcon"/>
-
-            <div className= 'hor-line-right'>
-              <img className= 'second-line-img' src={lineart2} alt="lineart2"/>
-            </div>
-
-
-        </div>
 
       </div>
 
@@ -96,8 +96,8 @@ function Home() {
           </div>
 
           <div className= 'pic-parent'>
-            <img className= 'voronoi-img' src={voronoi2} alt="voronoi2"/>
-            <img className= 'llyod-img' src={llyod} alt="llyod"/>
+            <img className= 'voronoi-img img-shadow' src={voronoi2} alt="voronoi2"/>
+            <img className= 'llyod-img img-shadow' src={llyod} alt="llyod"/>
           </div>
 
         </div>
@@ -140,8 +140,8 @@ function Home() {
           </div>
 
           <div className= 'pic-parent-2'>
-            <img className= 'ss-img' src={ss4} alt="voronoi2"/>
-            <img className= 'ss-img' src={combat2} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={ss4} alt="voronoi2"/>
+            <img className= 'ss-img img-shadow' src={combat2} alt="llyod"/>
           </div>
 
         </div>
@@ -183,37 +183,14 @@ function Home() {
           </div>
 
           <div className= 'pic-parent-3'>
-            <img className= 'ss-img' src={ss3} alt="voronoi2"/>
-            <img className= 'ss-img' src={ss5} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={ss3} alt="voronoi2"/>
+            <img className= 'ss-img img-shadow' src={ss5} alt="llyod"/>
           </div>
 
         </div>
       </div>
 
-      <div className='line-2'>
-
-          <div className= 'hor-line-left'>
-            <img className= 'second-line-img-flip' src={lineart2} alt="lineart2"/>
-          </div>
-
-
-
-          <img className= 'steam-img' src={steamIcon} alt="steamIcon"/>
-          <img className= 'youtube-img' src={youtubeIcon} alt="youtubeIcon"/>
-          <img className= 'discord-img' src={discordIcon} alt="discordIcon"/>
-
-          <div className= 'hor-line-right'>
-            <img className= 'second-line-img' src={lineart2} alt="lineart2"/>
-          </div>
-
-
-      </div>
-
-      <div className='body2'>
-      </div>
-
-
-
+      <Socials />
     </span>
   );
 }
@@ -246,4 +223,23 @@ enemies in hopes to be the last kingdom
 standing. Good luck!</p>
 
 <img src={legacy} alt="banner" />
+
+<div className='line-2'>
+
+          <div className= 'hor-line-left'>
+            <img className= 'second-line-img-flip' src={lineart2} alt="lineart2"/>
+          </div>
+
+
+
+          <img className= 'steam-img' src={steamIcon} alt="steamIcon"/>
+          <img className= 'youtube-img' src={youtubeIcon} alt="youtubeIcon"/>
+          <img className= 'discord-img' src={discordIcon} alt="discordIcon"/>
+
+          <div className= 'hor-line-right'>
+            <img className= 'second-line-img' src={lineart2} alt="lineart2"/>
+          </div>
+
+
+      </div>
 */

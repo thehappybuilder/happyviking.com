@@ -6,6 +6,7 @@ import youtubeIcon from '../img/youtubeIcon.png'
 import discordIcon from '../img/discordIcon.png'
 import lineart2 from '../img/lineart2.png'
 import bg_dark_2 from '../img/bg_dark_2.png'
+import Socials from '../components/Socials.js'
 
 import htr_1 from '../img/roads_image.png'
 import htr_2 from '../img/interior_htr_v2.png'
@@ -58,8 +59,8 @@ function HitTheRoad() {
           </div>
 
           <div className= 'pic-parent-3'>
-            <img className= 'ss-img' src={htr_1} alt="voronoi2"/>
-            <img className= 'ss-img' src={htr_2} alt="llyod"/>
+            <img className= 'ss-img img-shadow' src={htr_1} alt="voronoi2"/>
+            <img className= 'ss-img img-shadow' src={htr_2} alt="llyod"/>
           </div>
 
           <div className= 'center-style'>
@@ -69,37 +70,9 @@ function HitTheRoad() {
 
         </div>
 
-        <div className='line-2'>
-
-            <div className= 'hor-line-left'>
-              <img className= 'second-line-img-flip' src={lineart2} alt="lineart2"/>
-            </div>
-
-
-
-            <img className= 'steam-img' src={steamIcon} alt="steamIcon"/>
-            <img className= 'youtube-img' src={youtubeIcon} alt="youtubeIcon"/>
-            <img className= 'discord-img' src={discordIcon} alt="discordIcon"/>
-
-            <div className= 'hor-line-right'>
-              <img className= 'second-line-img' src={lineart2} alt="lineart2"/>
-            </div>
-
-
-        </div>
+        <Socials />
 
       </div>
-
-
-      <div className='body2'>
-      </div>
-
-
-
-
-
-
-
     </span>
   );
 }

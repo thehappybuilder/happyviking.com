@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <Link to='/'>
         <img src={legacy} alt="banner" className="nav-logo"
-          height={40}/>
+          height={50}/>
       </Link>
       <menu>
         <li className="nav-btn">

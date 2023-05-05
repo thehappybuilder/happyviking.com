@@ -6,12 +6,14 @@ import youtubeIcon from '../img/youtubeIcon.png'
 import discordIcon from '../img/discordIcon.png'
 import lineart2 from '../img/lineart2.png'
 import bg_dark_2 from '../img/bg_dark_2.png'
+import { NavLink, Link } from 'react-router-dom';
 
 import harrison from '../img/linkedInProfilePic.jpg'
 import bas from '../img/bas-profile.jpg'
 
 import emailIcon from '../img/emailIcon.png'
 import linkedInIcon from '../img/linkedInIcon.png'
+import Socials from '../components/Socials.js'
 
 
 function Contact() {
@@ -64,7 +66,7 @@ function Contact() {
 
           <div className= 'pic-parent-4'>
             <div className= 'profile-outline'>
-              <img className= 'profile-img' src={harrison} alt="voronoi2"/>
+              <img className= 'profile-img img-shadow' src={harrison} alt="voronoi2"/>
               <h2> Harrison </h2>
               <p1> Co-Founder and Frontend developer </p1>
               <div className= 'profile-desc'>
@@ -79,49 +81,32 @@ function Contact() {
             </div>
 
             <div className= 'profile-outline'>
-              <img className= 'profile-img' src={bas} alt="llyod"/>
+              <img className= 'profile-img img-shadow' src={bas} alt="llyod"/>
               <h2> Bas </h2>
-              <p1> Co-Founder and Backend developer </p1>
+              <p1> Co-Founder and Fullstack developer </p1>
+              <div className= 'profile-desc'>
+                <p3> Hey! I'm Bas, a Data Science major and Cognitive Science minor currently attending UC San Diego.
+                  I am experienced in an array of programming languages including python, Java, C#, C++, R, HTML, CSS, 
+                  and JavaScript, complemented by experience with tools such as React and Unity. 
+
+                </p3>
+              </div>
             </div>
 
 
 
           </div>
 
-
-        </div>
-
-        <div className='line-2'>
-
-            <div className= 'hor-line-left'>
-              <img className= 'second-line-img-flip' src={lineart2} alt="lineart2"/>
-            </div>
-
-
-
-            <img className= 'steam-img' src={steamIcon} alt="steamIcon"/>
-            <img className= 'youtube-img' src={youtubeIcon} alt="youtubeIcon"/>
-            <img className= 'discord-img' src={discordIcon} alt="discordIcon"/>
-
-            <div className= 'hor-line-right'>
-              <img className= 'second-line-img' src={lineart2} alt="lineart2"/>
-            </div>
+          <h2>Contact us at&nbsp;
+            <a href="mailto:support@happyvikingstudios.com">support@happyvikingstudios.com</a>
+          </h2>
 
 
         </div>
 
+        <Socials />
+
       </div>
-
-
-      <div className='body2'>
-      </div>
-
-
-
-
-
-
-
     </span>
   );
 }

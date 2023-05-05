@@ -29,6 +29,18 @@ function App() {
             <Route exact path="/contact">
               <Contact />
             </Route>
+            <Route path='/discord' component={() => {
+               window.location.href = 'https://discord.gg/8vFCHahcHG';
+               return null;
+            }}/>
+            <Route path='/steam' component={() => {
+               window.location.href = 'https://store.steampowered.com/app/1858090/A_Modest_Legacy/';
+               return null;
+            }}/>
+            <Route path='/youtube' component={() => {
+               window.location.href = 'https://www.youtube.com/channel/UCLByqIo7PKgwXgb3bCWg_AA';
+               return null;
+            }}/>
           </Switch>
         </main>
         <Footer />
