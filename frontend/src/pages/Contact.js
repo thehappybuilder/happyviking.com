@@ -98,7 +98,7 @@ function Contact() {
           </div>
 
           <h2>Contact us at&nbsp;
-            <a href="mailto:support@happyvikingstudios.com">support@happyvikingstudios.com</a>
+            <a href="mailto:support@happyvikingstudios.com">happyvikingdevelopment@gmail.com</a>
           </h2>
 
 
