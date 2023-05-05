@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5 {
   top: 0;
   right: 0;
   z-index: 1;
-  
-  
+
+
   /*max-width: 1024px;*/
   margin: auto;
   margin-top: 12px;
@@ -174,10 +174,10 @@ a:hover {
   text-align: center;
   position: absolute;
   bottom: 20px;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 11;
 }
 
@@ -192,6 +192,22 @@ a:hover {
 
 .splash-title h2 {
   font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 25px;
+}
+
+p1 {
+  font-size: 20px;
+  color: var(--body-text);
+}
+p2 {
+  font-size: 20px;
+  color: var(--body-text);
 }
 
 .splash-img {
@@ -236,4 +252,277 @@ a:hover {
   bottom: 66%;
   right: 0px;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0), var(--bg));
+}
+
+.body1 {
+  height: 500px;
+  width: 100%;
+  background-color: var(--bg);
+}
+.body2 {
+  height: 40px;
+  width: 100%;
+  background-color: var(--bg);
+}
+
+.line-main {
+  display: flex;
+  justify-content: center;
+}
+
+.hor-line {
+  position: relative;
+  height: 4px;
+  width: 90%;
+  border-top: 2px solid var(--body-text);
+}
+
+.main-line-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  height: 40px;
+  width: auto;
+}
+
+.welcome-body {
+  width: 85%;
+  border: 3px solid red;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hor-line-left {
+  padding: 0 20px;
+  position: relative;
+  height: 4px;
+  width: 40%;
+  border-top: 2px solid var(--body-text);
+  margin-left: 5%;
+}
+.hor-line-right {
+  padding: 0 20px;
+  position: relative;
+  height: 4px;
+  width: 40%;
+  border-top: 2px solid var(--body-text);
+  margin-right: 5%;
+}
+.steam-img {
+  padding: 0 10px;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  height: 30px;
+  width: auto;
+}
+
+.youtube-img {
+  padding: 0 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  height: 30px;
+  width: auto;
+}
+
+.discord-img {
+  padding: 0 10px;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  height: 30px;
+  width: auto;
+}
+
+.second-line-img {
+  padding: 0 10px;
+  position: absolute;
+  left: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, -50%);
+  height: 20px;
+  width: auto;
+}
+
+.second-line-img-flip {
+  padding: 0 10px;
+  position: absolute;
+
+  right: 0;
+  margin-left: 0;
+  margin-right: auto;
+  transform: scaleX(-1) translate(0, -50%);
+  height: 20px;
+  width: auto;
+}
+
+.welcome-desc {
+  width: 50%;
+}
+
+.dark-img {
+  position: absolute;
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.feature-body-1 {
+  width: 80%;
+  height: 100%;
+  z-index: 12;
+  position: absolute;
+  top: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  /*
+  background-image: url("./img/legacy-splash.png");
+  background-size: contain;
+  background-repeat: no-repeat;*/
+}
+
+.feature-1-title {
+  text-align: center;
+  height: 80px;
+}
+
+.pic-parent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.voronoi-img {
+  padding: 0 10px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+}
+.llyod-img {
+  padding: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+}
+
+.ss-img {
+  height: 70%;
+  width: auto;
+  padding: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+}
+
+.pic-parent-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  border: 3px solid red;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-parent-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body3 {
+  height: 1100px;
+  width: 100%;
+  background-color: var(--bg);
+}
+
+.team-desc {
+  width: 100%;
+  text-align: left;
+}
+
+.aboutus-body {
+  width: 80%;
+  text-align: center;
+  border: 3px solid red;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-style {
+  text-align: center;
+}
+
+.pic-parent-4 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 80%;
+
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-outline {
+  border: 3px solid red;
+  width: 40%;
+}
+
+p3 {
+  font-size: 14px;
+}
+
+.profile-img {
+  height: 70%;
+  width: auto;
+  padding: 0 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
+}
+
+.profile-desc {
+  text-align: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
