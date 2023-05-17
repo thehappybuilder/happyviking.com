@@ -1,5 +1,5 @@
 import legacy from '../img/legacy-logo.png'
-import hittheroad_splash from '../img/hittheroad_main.png'
+import hittheroad_splash from '../img/tavern_htr_v2.png'
 import lineart1 from '../img/lineart1.png'
 import steamIcon from '../img/steamIcon.png'
 import youtubeIcon from '../img/youtubeIcon.png'

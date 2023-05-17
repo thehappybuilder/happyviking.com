@@ -1,5 +1,5 @@
 import legacy from '../img/legacy-logo.png'
-import aboutus_splash from '../img/about_us_image.png'
+import aboutus_splash from '../img/about_us_image2.jpg'
 import lineart1 from '../img/lineart1.png'
 import steamIcon from '../img/steamIcon.png'
 import youtubeIcon from '../img/youtubeIcon.png'
@@ -86,8 +86,8 @@ function Contact() {
               <p1> Co-Founder and Fullstack developer </p1>
               <div className= 'profile-desc'>
                 <p3> Hey! I'm Bas, a Data Science major and Cognitive Science minor currently attending UC San Diego.
-                  I am experienced in an array of programming languages including python, Java, C#, C++, R, HTML, CSS, 
-                  and JavaScript, complemented by experience with tools such as React and Unity. 
+                  I am experienced in an array of programming languages including python, Java, C#, C++, R, HTML, CSS,
+                  and JavaScript, complemented by experience with tools such as React and Unity.
 
                 </p3>
               </div>

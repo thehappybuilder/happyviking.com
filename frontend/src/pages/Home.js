@@ -8,8 +8,8 @@ import lineart2 from '../img/lineart2.png'
 import bg_dark_2 from '../img/bg_dark_2.png'
 import llyod from '../img/llyod.png'
 import voronoi2 from '../img/voronoi2.png'
-import bg_dark_3 from '../img/bg_dark_3.png'
-import bg_dark_4 from '../img/bg_dark_4.png'
+import bg_dark_3 from '../img/bg_dark_3.jpg'
+import bg_dark_4 from '../img/bg_dark_4.jpg'
 import Socials from '../components/Socials.js'
 
 import ss3 from '../img/ss3.PNG'
@@ -43,13 +43,13 @@ function Home() {
 
           <span className='welcome-span'>
             <div className= 'welcome-desc'>
-              <p1> 
+              <p1>
                 Explore the world of A Modest Legacy, where you must fight
                 to create your kingdom while taking down your enemies.
                 A Modest Legacy is a real time strategy, roguelite,
                 single-player game where you must work to grow your cities,
                 outposts, and armies, all while keeping your population fed and
-                ready for war. 
+                ready for war.
               </p1>
               <iframe
                 src="https://store.steampowered.com/widget/1858090/"
@@ -57,14 +57,14 @@ function Home() {
               </iframe>
             </div>
 
-            
+
 
             <iframe
               width="600"  className='img-shadow'
               src="https://www.youtube.com/embed/xTy1GrrcGRQ">
             </iframe>
           </span>
-          
+
 
         </div>
 
@@ -139,7 +139,7 @@ function Home() {
             </p1>
           </div>
 
-          <div className= 'pic-parent-2'>
+          <div className= 'pic-parent-3'>
             <img className= 'ss-img img-shadow' src={ss4} alt="voronoi2"/>
             <img className= 'ss-img img-shadow' src={combat2} alt="llyod"/>
           </div>
